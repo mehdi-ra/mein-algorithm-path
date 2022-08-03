@@ -4,19 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
     "start": "node index.js"
   },
-
-  "dependencies": { },
-
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^27.4.7",
-
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7"
   }
 }
